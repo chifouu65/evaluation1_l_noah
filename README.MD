@@ -59,6 +59,9 @@ Ce projet modélise une partie de la base de données de la société Kicéo, re
     Heure: Heure de passage du bus à une station spécifique.
 
 #### Modèle Conceptuel des Données (MCD)
+
+![Image du MCD](./mcd.png)
+
                 +---------------------+     1     +----------------------+
                 |      Station        |◇-----------|        Ligne         |
                 +---------------------+     0,N   +----------------------+
